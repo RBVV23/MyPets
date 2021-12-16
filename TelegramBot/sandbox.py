@@ -10,7 +10,7 @@ def get_text_messages(message):
     elif message.text == "Let's":
         bot.send_message(message.from_user.id, "GO!")
     elif message.text == "/help":
-        bot.send_message(message.from_user.id, "Напиши привет")
+        bot.send_message(message.from_user.id, "Напиши привет или пнх")
     elif message.text == "пнх":
         answer = 'сам ' + message.text
         bot.send_message(message.from_user.id, answer)
