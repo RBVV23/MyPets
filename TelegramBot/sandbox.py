@@ -7,7 +7,8 @@ bot = telebot.TeleBot(my_token)
 def get_text_messages(message):
     if message.text == "Привет":
         spam = message.from_user.id
-        bot.send_message(message.from_user.id, "Привет" + str(spam))
+        # egg =
+        bot.send_message(message.from_user.id, "Привет " + str(spam))
         answer = message.text
         # bot.send_message(message.from_user.id, "Очень приятно, " + str(answer))
     elif message.text == "Let's":
