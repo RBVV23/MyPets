@@ -4,11 +4,6 @@ import pandas as pd
 my_token = '5017505479:AAFhKcFFVFKaa4d42u9xw8XBm1ixRxsTlgk'
 bot = telebot.TeleBot(my_token)
 
-data = pd.DataFrame
-data['user_id'] = []
-data['Name'] = []
-
-print(data)
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
