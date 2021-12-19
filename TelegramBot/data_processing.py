@@ -1,3 +1,4 @@
+import pandas as pd
 
 my_columns = ['user_id',
               'name',
