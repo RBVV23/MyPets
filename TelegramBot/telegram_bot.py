@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-import pandas as pd
+
 
 my_token = '5017505479:AAFhKcFFVFKaa4d42u9xw8XBm1ixRxsTlgk'
 bot = telebot.TeleBot(my_token)
