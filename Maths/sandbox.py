@@ -3,6 +3,7 @@ import random
 
 x,f,g,h = symbols('x f g h')
 
+#1
 
 f = (x-1)*(x+2)*(x-4)
 g = (x-3)*(x+3)*(x-7)*(x+6)
