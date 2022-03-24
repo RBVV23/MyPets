@@ -4,7 +4,7 @@ from random import choice, choices, randint
 with open('little_mails.txt') as f:
     all_mails = f.read().split('\n')
 
-i = randint(0,len(all_mails))
+i = randint(0, len(all_mails))
 email = all_mails[i]
 
 with open('male_names.txt') as f:
@@ -28,8 +28,6 @@ print('МУЖСКИЕ ОТЧЕСТВА:')
 print(male_patronymics)
 print('\tИтого:', len(male_patronymics))
 
-
-
 with open('female_names.txt') as f:
     female_names = f.read().split('\n')
 
@@ -50,9 +48,6 @@ with open('female_patronymics.txt') as f:
 print('ЖЕНСКИЕ ОТЧЕСТВА:')
 print(female_patronymics)
 print('\tИтого:', len(female_patronymics))
-
-
-
 
 # with open('female_names.txt') as f:
 #     names = f.read().split('\n')
@@ -85,8 +80,6 @@ kid_descs = []
 sexs = []
 ages = []
 question_nums = []
-
-
 
 N = 9
 emails = choices(all_mails, k=N)
