@@ -6,13 +6,13 @@ with open('real_mails.txt') as f:
     mails = f.read().split('\n')
 # mails = mails[:-1]
 
-i = randint(0,len(mails))
+i = randint(0, len(mails))
 email = mails[i]
 
 print('Всего адресов в списке: ', len(mails))
 
 mails = list(set(mails))
-print('Уникальных адресов в списке: ',len(mails))
+print('Уникальных адресов в списке: ', len(mails))
 mails.sort()
 
 # N= 10
