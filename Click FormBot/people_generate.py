@@ -1,4 +1,3 @@
-from pywinauto import application
 from random import choice, choices, randint
 
 with open('little_mails.txt') as f:
