@@ -116,19 +116,19 @@ for n in range(N):
         kid_cat = 1
     elif age >= 18 and age <= 25:
         cat = 2
-        kid_cat = choice((1,2))
+        kid_cat = choice((1, 2))
     elif age >= 26 and age <= 35:
         cat = 3
-        kid_cat = choice((1,2,3,4))
+        kid_cat = choice((1, 2, 3, 4))
     elif age >= 36 and age <= 45:
         cat = 4
-        kid_cat = choice((2,3,4))
+        kid_cat = choice((2, 3, 4))
     elif age >= 46 and age <= 55:
         cat = 5
-        kid_cat = choice((3,4))
+        kid_cat = choice((3, 4))
     else:
         cat = 6
-        kid_cat = choice((3,4))
+        kid_cat = choice((3, 4))
     cats.append(cat)
     kid_cats.append(kid_cat)
 
