@@ -68,7 +68,7 @@ for n in range(N):
         kid_cat = choice((1,2))
     elif age >= 26 and age <= 35:
         cat = 3
-        kid_cat = choice((1,2,3,4))
+        kid_cat = choice((1, 2, 3, 4))
     elif age >= 36 and age <= 45:
         cat = 4
         kid_cat = choice((2,3,4))
