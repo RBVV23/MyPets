@@ -134,16 +134,16 @@ for n in range(N):
 
     if kid_cat == 1:
         kid_desc = 'Ребёнок дошкольного возраста'
-        question_num = randint(1,15)
+        question_num = randint(1, 15)
     elif kid_cat == 2:
         kid_desc = 'Ребёнок младшекого школьного возраста (1 - 4 класс)'
-        question_num = randint(1,20)
+        question_num = randint(1, 20)
     elif kid_cat == 3:
         kid_desc = 'Ребёнок младшего подросткового возраста (5 - 7 класс)'
-        question_num = randint(1,20)
+        question_num = randint(1, 20)
     else:
         kid_desc = 'Ребёнок старшего подросткового возраста (8 класс и старше)'
-        question_num = randint(1,20)
+        question_num = randint(1, 20)
     kid_descs.append(kid_desc)
     question_nums.append(question_num)
 
