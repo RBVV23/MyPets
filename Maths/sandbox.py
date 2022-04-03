@@ -4,7 +4,6 @@ import random
 x, f, g, h = symbols('x f g h')
 
 #1
-#2
 
 
 f = (x-1)*(x+2)*(x-4)
