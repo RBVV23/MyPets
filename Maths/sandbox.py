@@ -16,6 +16,7 @@ print(h.expand())
 x_i = []
 N = 10
 for i in range(N):
-   x_i.append(random.randint(1,10))
+   x_i.append(random.randint(1, 10))
+
 
 print(x_i)
