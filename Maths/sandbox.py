@@ -1,6 +1,7 @@
 from sympy import *
 import random
 
+
 x, f, g, h = symbols('x f g h')
 
 
