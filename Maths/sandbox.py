@@ -14,7 +14,9 @@ h = (x-2)*(x+1)*(x-3)*(x+3)*(x-4)
 # print(g.expand())
 # print(h.expand())
 
-x_i = [random.randint(1, 10)]
+min = -10
+max = 10
+x_i = [random.randint(min, max)]
 N = 3
 f = x - x_i[0]
 for i in range(1,N):
