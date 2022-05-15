@@ -17,8 +17,9 @@ h = (x-2)*(x+1)*(x-3)*(x+3)*(x-4)
 x_i = [random.randint(1, 10)]
 N = 3
 f = x - x_i[0]
-for i in range(N-1):
+for i in range(1,N):
    x_i.append(random.randint(1, 10))
+   print(f)
    f = f*(x-x_i[i])
 
 
