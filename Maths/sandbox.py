@@ -5,18 +5,19 @@ import random
 x, f, g, h = symbols('x f g h')
 
 
-f = (x-1)
+# f = (x-1)
 g = (x-3)*(x+3)*(x-7)*(x+6)
 h = (x-2)*(x+1)*(x-3)*(x+3)*(x-4)
 
 
-print(f.expand())
-print(g.expand())
-print(h.expand())
+# print(f.expand())
+# print(g.expand())
+# print(h.expand())
 
-x_i = []
+x_i = [random.randint(1, 10)]
 N = 3
-for i in range(N):
+f = x - x_i[0]
+for i in range(N-1):
    x_i.append(random.randint(1, 10))
    f = f*(x-x_i[i])
 
