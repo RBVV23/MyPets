@@ -5,13 +5,6 @@ import random
 x, f, g, h = symbols('x f g h')
 
 
-# f = (x-1)
-g = (x-3)*(x+3)*(x-7)*(x+6)
-
-
-# print(f.expand())
-
-
 min = -10
 max = 10
 x_i = [random.randint(min, max)]
