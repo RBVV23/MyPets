@@ -12,7 +12,7 @@ h = (x-2)*(x+1)*(x-3)*(x+3)*(x-4)
 
 # print(f.expand())
 # print(g.expand())
-# print(h.expand())
+
 
 min = -10
 max = 10
