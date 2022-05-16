@@ -4,9 +4,9 @@ import random
 
 x, f, g, h = symbols('x f g h')
 
-min = -10
-max = 10
-x_i = [random.randint(min, max)]
+min_x = -10
+max_x = 10
+x_i = [random.randint(min_x, max_x)]
 N = 3
 f = x - x_i[0]
 for i in range(1, N):
