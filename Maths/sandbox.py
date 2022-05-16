@@ -11,7 +11,7 @@ N = 3
 f = x - x_i[0]
 for i in range(1, N):
    x_i.append(random.randint(1, 10))
-   f = f*(x-x_i[i])
+   f *= (x-x_i[i])
 
 print(x_i)
 print(f.expand())
