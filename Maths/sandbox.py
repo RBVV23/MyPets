@@ -17,7 +17,7 @@ print(x_i)
 print(f.expand())
 print(f)
 
-#2
+
 #3
 #4
 #5
