@@ -20,4 +20,6 @@ import random
 min_x = -10
 max_x = 10
 N = 2
-x = symbols('x')
+x, f = symbols('x f')
+roots = []
+
