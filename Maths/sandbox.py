@@ -16,3 +16,8 @@ import random
 # print(x_i)
 # print(f.expand())
 # print(f)
+
+min_x = -10
+max_x = 10
+N = 2
+x
