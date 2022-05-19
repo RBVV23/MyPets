@@ -20,4 +20,4 @@ import random
 min_x = -10
 max_x = 10
 N = 2
-x
+x = symbols('x')
