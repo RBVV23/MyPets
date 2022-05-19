@@ -19,7 +19,15 @@ import random
 
 min_x = -10
 max_x = 10
-N = 2
+N = 3
 x, f = symbols('x f')
 roots = []
+fraction = False
+for i in range(N):
+    if fraction:
+        ...
+    else:
+        root = random.randint(min_x, max_x)
+    roots.append(root)
 
+print(roots)
