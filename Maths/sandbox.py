@@ -22,9 +22,12 @@ max_x = 5
 N = 3
 x, f = symbols('x f')
 roots = []
-fraction = False
+fraction_roots = False
+decimal_roots = False
 for i in range(N):
     if fraction:
+        ...
+    if decimal_roots:
         ...
     else:
         root = random.randint(min_x, max_x)
