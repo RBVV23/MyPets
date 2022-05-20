@@ -23,13 +23,14 @@ max_x = 5
 N = 2
 x, f = symbols('x f')
 roots = []
-fraction_roots = True
-decimal_roots = False
+fraction_roots = False
+decimal_roots = True
 for i in range(N):
     if fraction_roots:
         root = Fraction(random.randint(min_x, max_x), random.randint(1, max_x))
-        print(root)
+        # print(root)
     elif decimal_roots:
+        root = random.randint(min_x, max_x) + random.randint(0,10)/10
         ...
     else:
         root = random.randint(min_x, max_x)
