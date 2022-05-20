@@ -27,9 +27,9 @@ fraction_roots = True
 decimal_roots = False
 for i in range(N):
     if fraction_roots:
-        root = Fraction(random.randint(min_x, max_x), random.randint(min_x, max_x))
+        root = Fraction(random.randint(min_x, max_x), random.randint(1, max_x))
         print(root)
-    if decimal_roots:
+    elif decimal_roots:
         ...
     else:
         root = random.randint(min_x, max_x)
