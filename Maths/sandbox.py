@@ -1,5 +1,6 @@
 from sympy import *
 import random
+from fractions import Fraction
 
 
 # x, f, g, h = symbols('x f g h')
@@ -19,14 +20,15 @@ import random
 
 min_x = -5
 max_x = 5
-N = 3
+N = 2
 x, f = symbols('x f')
 roots = []
-fraction_roots = False
+fraction_roots = True
 decimal_roots = False
 for i in range(N):
-    if fraction:
-        ...
+    if fraction_roots:
+        root = Fraction(random.randint(min_x, max_x), random.randint(min_x, max_x))
+        print(root)
     if decimal_roots:
         ...
     else:
@@ -40,3 +42,4 @@ for i in range(N):
 
 print(f)
 print(f.expand())
+
