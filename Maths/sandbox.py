@@ -32,7 +32,6 @@ for i in range(N):
     else:
         root = random.randint(min_x, max_x)
     roots.append(root)
-
 print(roots)
 
 f = 1
