@@ -28,7 +28,6 @@ decimal_roots = True
 for i in range(N):
     if fraction_roots:
         root = Fraction(random.randint(min_x, max_x), random.randint(1, max_x))
-        # print(root)
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
     else:
