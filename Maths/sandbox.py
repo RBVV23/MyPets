@@ -5,8 +5,7 @@ from fractions import Fraction
 
 # x, f, g, h = symbols('x f g h')
 #
-# min_x = -10
-# max_x = 10
+
 
 
 min_x = -5
