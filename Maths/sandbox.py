@@ -13,10 +13,6 @@ from fractions import Fraction
 # for i in range(1, N):
 #    x_i.append(random.randint(1, 10))
 #    f *= (x - x_i[i])
-#
-# print(x_i)
-# print(f.expand())
-# print(f)
 
 min_x = -5
 max_x = 5
