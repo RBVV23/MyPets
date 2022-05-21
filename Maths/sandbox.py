@@ -3,9 +3,6 @@ import random
 from fractions import Fraction
 
 
-
-
-
 min_x = -5
 max_x = 5
 N = 2
