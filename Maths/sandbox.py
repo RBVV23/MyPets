@@ -10,9 +10,6 @@ from fractions import Fraction
 # x_i = [random.randint(min_x, max_x)]
 # N = 3
 # f = x - x_i[0]
-# for i in range(1, N):
-#    x_i.append(random.randint(1, 10))
-#    f *= (x - x_i[i])
 
 min_x = -5
 max_x = 5
