@@ -8,8 +8,7 @@ from fractions import Fraction
 # min_x = -10
 # max_x = 10
 # x_i = [random.randint(min_x, max_x)]
-# N = 3
-# f = x - x_i[0]
+
 
 min_x = -5
 max_x = 5
