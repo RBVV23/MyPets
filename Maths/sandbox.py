@@ -3,8 +3,6 @@ import random
 from fractions import Fraction
 
 
-# x, f, g, h = symbols('x f g h')
-#
 
 
 
