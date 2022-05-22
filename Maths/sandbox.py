@@ -11,6 +11,7 @@ roots = []
 fraction_roots = False
 decimal_roots = True
 repeat = True
+
 for i in range(N):
     if fraction_roots:
         root = Fraction(random.randint(min_x, max_x), random.randint(1, max_x))
