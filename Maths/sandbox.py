@@ -15,7 +15,11 @@ repeat = True
 for i in range(N):
     if fraction_roots:
         chisl = random.randint(min_x, max_x)
-        root = Fraction(chisl, random.randint(2, max_x))
+        while True:
+            znam = random.randint(2, max_x)
+            if chisl % znam !=0:
+                break
+        root = Fraction(chisl, znam)
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
     else:
