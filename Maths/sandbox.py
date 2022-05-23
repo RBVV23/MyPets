@@ -17,7 +17,6 @@ for i in range(N):
         chisl = random.randint(min_x, max_x)
         znam = random.randint(2, max_x)
         root = Fraction(chisl, znam)
-                # break
 
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
