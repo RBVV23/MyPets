@@ -16,7 +16,6 @@ for i in range(N):
     if fraction_roots:
         chisl = random.randint(min_x, max_x)
         znam = random.randint(2, max_x)
-            # if chisl % znam != 0:
         root = Fraction(chisl, znam)
                 # break
 
