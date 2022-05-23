@@ -8,18 +8,19 @@ max_x = 5
 N = 2
 x, f = symbols('x f')
 roots = []
-fraction_roots = False
-decimal_roots = True
+fraction_roots = True
+decimal_roots = False
 repeat = True
 
 for i in range(N):
     if fraction_roots:
         chisl = random.randint(min_x, max_x)
-        while True:
-            znam = random.randint(2, max_x)
-            if chisl % znam !=0:
-                break
+        # while True:
+        znam = random.randint(2, max_x)
+            # if chisl % znam != 0:
         root = Fraction(chisl, znam)
+                # break
+
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
     else:
