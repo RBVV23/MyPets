@@ -19,8 +19,9 @@ for i in range(N):
             print(chisl)
             znam = random.randint(2, max_x)
             print(znam)
-            if chisl != znam:
+            if abs(chisl) != znam and chisl:
                 root = Fraction(chisl, znam)
+                break
 
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
