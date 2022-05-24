@@ -32,5 +32,5 @@ for i in range(N):
 print(f)
 print(f.expand())
 
-print(f'{1}\u00b2')
+# print(f'{1}\u00b2')
 # print(f'{1}\u00b3')
