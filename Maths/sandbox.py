@@ -20,7 +20,6 @@ for i in range(N):
             if abs(chisl) != znam and chisl:
                 root = Fraction(chisl, znam)
                 break
-
     elif decimal_roots:
         root = random.randint(min_x, max_x) + random.randint(0,10)/10
     else:
