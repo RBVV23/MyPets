@@ -18,7 +18,6 @@ for i in range(N):
             chisl = random.randint(min_x, max_x)
             # print(chisl)
             znam = random.randint(2, max_x)
-            # print(znam)
             if abs(chisl) != znam and chisl:
                 root = Fraction(chisl, znam)
                 break
