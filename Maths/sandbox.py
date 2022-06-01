@@ -16,6 +16,7 @@ for i in range(N):
     if fraction_roots:
         while True:
             chisl = random.randint(min_x, max_x)
+
             znam = random.randint(2, max_x)
             if abs(chisl) != znam and chisl:
                 root = Fraction(chisl, znam)
@@ -38,4 +39,3 @@ print(f.expand())
 # print(f'{1}\u00b2')
 # print(f'{1}\u00b3')
 
-#1
