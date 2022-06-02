@@ -2,6 +2,7 @@ import random  # импортируем библиотеку рандом
 # https://docs.python.org/3/library/random.html 
 import time  # импортируем библиотеку для работы со временем
 
+
 # Будем использовать ее для подсчета времени работы программы
 # https://docs.python.org/3/library/time.html 
 
