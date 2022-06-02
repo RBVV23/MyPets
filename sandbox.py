@@ -77,12 +77,12 @@ if a == 'холод':
     elif b.lower() == 'нет':
         print('Что насчет Гренландии? Хотели бы там побывать?')
         question = 'Да или нет? '
-        c = input(question)
-        c = invalid_input(c, yes_no_list, question)
-        if c.lower() == 'нет':
+        spam = input(question)
+        spam = invalid_input(spam, yes_no_list, question)
+        if spam.lower() == 'нет':
             print('Присмотритесь к курортам России, например Байкал или\
  Архангельск')  # исход
-        elif c.lower() == 'да':
+        elif spam.lower() == 'да':
             print('Отлично, я думаю, что это идеальный вариант для вас.')  # исход
 elif a.lower() == 'жара':
     question = 'Вам нравится активный отдых? Да или нет? '
