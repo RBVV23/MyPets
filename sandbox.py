@@ -100,20 +100,20 @@ elif a.lower() == 'жара':
             if o.lower() == 'да':
                 question = 'Имеются ли прививки, необходимые для прибывания\
  в экзотических странах? Да или нет? '
-                l = input(question)
-                l = invalid_input(l, yes_no_list, question)
-                if l.lower() == 'да':
+                inpyt_var = input(question)
+                inpyt_var = invalid_input(inpyt_var, yes_no_list, question)
+                if inpyt_var.lower() == 'да':
                     choix(vac_list)  # используем функцию для случайной страны
-                elif l.lower() == 'нет':
+                elif inpyt_var.lower() == 'нет':
                     choix(not_vac_list)
             elif o.lower() == 'нет':
                 question = 'Интересует активный отдых на море или в горах?\
  Море или горы? '
-                l = input(question)
-                l = invalid_input(l, sea_mountains_list, question)
-                if l.lower() == 'море':
+                inpyt_var = input(question)
+                inpyt_var = invalid_input(inpyt_var, sea_mountains_list, question)
+                if inpyt_var.lower() == 'море':
                     choix(sea_list)
-                elif l.lower() == 'горы':
+                elif inpyt_var.lower() == 'горы':
                     question = 'Имеется ли виза? Да или нет? '
                     m = input(question)
                     m = invalid_input(m, yes_no_list, question)
