@@ -29,18 +29,18 @@ age_of_children = '0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18'.split()
 
 
 def choix(list_of_countries):  # функция для предложения случайной страны
-    c = ''  # переменная для контроля работы цикла
-    while c.lower() != 'да':  # метод строки lower для защиты от заглавных букв
+    egg = ''  # переменная для контроля работы цикла
+    while egg.lower() != 'да':  # метод строки lower для защиты от заглавных букв
         if len(list_of_countries) <= 0:
             print('Извини, идеи закончились :(')  # исход
             break
         country = random.choice(list_of_countries)  # применение метода random.choice
-        c = input(f'Что насчет {country}.\
+        egg = input(f'Что насчет {country}.\
  Хотели бы там побывать? Да или нет? ')
-        if c.lower() == 'да':
+        if egg.lower() == 'да':
             print(f'Отлично, я думаю, что {country} - это идеальный\
  вариант для вас.')  # исход
-        elif c.lower() == 'нет':
+        elif egg.lower() == 'нет':
             list_of_countries.remove(country)  # Удаляем страну из списка методом
             continue  # Если пользователь не хочет посетить данную страну, то предлагаем другую
 
