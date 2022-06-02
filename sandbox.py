@@ -29,7 +29,7 @@ sea_mountains_list = ['море', 'горы']
 age_of_children = '0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18'.split()
 
 
-def choix(list_of_countries):  # функция для предложения случайной страны
+def choice_country(list_of_countries):  # функция для предложения случайной страны
     egg = ''  # переменная для контроля работы цикла
     while egg.lower() != 'да':  # метод строки lower для защиты от заглавных букв
         if len(list_of_countries) <= 0:
@@ -105,28 +105,28 @@ elif a.lower() == 'жара':
                 input_var_1 = input(question)
                 input_var_1 = invalid_input(input_var_1, yes_no_list, question)
                 if input_var_1.lower() == 'да':
-                    choix(vac_list)  # используем функцию для случайной страны
+                    choice_country(vac_list)  # используем функцию для случайной страны
                 elif input_var_1.lower() == 'нет':
-                    choix(not_vac_list)
+                    choice_country(not_vac_list)
             elif o.lower() == 'нет':
                 question = 'Интересует активный отдых на море или в горах?\
  Море или горы? '
                 input_var_1 = input(question)
                 input_var_1 = invalid_input(input_var_1, sea_mountains_list, question)
                 if input_var_1.lower() == 'море':
-                    choix(sea_list)
+                    choice_country(sea_list)
                 elif input_var_1.lower() == 'горы':
                     question = 'Имеется ли виза? Да или нет? '
                     m = input(question)
                     m = invalid_input(m, yes_no_list, question)
                     if m.lower() == 'нет':
-                        choix(not_visa_list)
+                        choice_country(not_visa_list)
                     elif m.lower() == 'да':
                         question = 'Берете ли детей? Да или нет? '
                         k = input(question)
                         k = invalid_input(k, yes_no_list, question)
                         if k.lower() == 'нет':
-                            choix(without_children_list)
+                            choice_country(without_children_list)
                         elif k.lower() == 'да':
                             question = 'Сколько вашим детям лет? '
                             j = input(question)
@@ -136,21 +136,21 @@ elif a.lower() == 'жара':
                                 i = input('Готовы ли вы заплатить за детей?\
  Да или нет? ')
                                 if i.lower() == 'да':
-                                    choix(pay_for_children)
+                                    choice_country(pay_for_children)
                                 elif i.lower() == 'нет':
-                                    choix(not_pay_for_children)
+                                    choice_country(not_pay_for_children)
                             elif j == 0 or j == 1 or j == 2 or j == 3:  # сложное условие
-                                choix(little_children)
+                                choice_country(little_children)
         elif m == 'да':
             question = 'Хотите путешествовать индивидуально или с тур-пакетом?\
  (Индивидуально или тур-пакет) '
             o = input(question)
             o = invalid_input(o, in_tur_list, question)
             if o == 'индивидуально':
-                choix(individ_list)
+                choice_country(individ_list)
             elif o == 'тур-пакет':
-                choix(tur_list)
+                choice_country(tur_list)
     elif b == 'нет':
-        choix(passive_relax)
+        choice_country(passive_relax)
 end = time.time()  # Конец работы программы
 print(f'Я подсказал вам страну для отдыха за {end - begin} секунд\n Рад помочь!')  # Считаем время работы программы
