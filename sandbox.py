@@ -154,3 +154,6 @@ elif a.lower() == 'жара':
         choice_country(passive_relax)
 end = time.time()  # Конец работы программы
 print(f'Я подсказал вам страну для отдыха за {end - begin} секунд\n Рад помочь!')  # Считаем время работы программы
+
+
+#A
